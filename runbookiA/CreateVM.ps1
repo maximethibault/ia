@@ -84,8 +84,8 @@ $skuName = ”2012-R2-Datacenter”
 $diskName = ”VM99SDisk”
 
 # Prompt for credentials that will be used for the local admin password for the VM
-$password = 'Automation1!' | ConvertTo-SecureString -asPlainText -Force
-$username = 'azure'
+$password = 'PASSWORD' | ConvertTo-SecureString -asPlainText -Force
+$username = 'USERNAME'
 $cred = New-Object System.Management.Automation.PSCredential($username,$password)
 
 
